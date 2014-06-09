@@ -54,8 +54,8 @@
 		8D0C75D01945FF4600376235 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		8D0C75D21945FF4600376235 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8D0C75D41945FF4600376235 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
-		8D0C75DE194601AB00376235 /* CMTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMTest.h; sourceTree = "<group>"; };
-		8D0C75DF194601AB00376235 /* CMTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMTest.m; sourceTree = "<group>"; };
+		8D0C75DE194601AB00376235 /* CMTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMTest.h; path = ../CMTest.h; sourceTree = "<group>"; };
+		8D0C75DF194601AB00376235 /* CMTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CMTest.m; path = ../CMTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,8 +85,6 @@
 		8D0C759D1945FF4500376235 = {
 			isa = PBXGroup;
 			children = (
-				8D0C75DE194601AB00376235 /* CMTest.h */,
-				8D0C75DF194601AB00376235 /* CMTest.m */,
 				8D0C75AF1945FF4600376235 /* Git Test */,
 				8D0C75CE1945FF4600376235 /* Git TestTests */,
 				8D0C75A81945FF4500376235 /* Frameworks */,
@@ -122,6 +120,8 @@
 				8D0C75BB1945FF4600376235 /* Main.storyboard */,
 				8D0C75BE1945FF4600376235 /* CMViewController.h */,
 				8D0C75BF1945FF4600376235 /* CMViewController.m */,
+				8D0C75DE194601AB00376235 /* CMTest.h */,
+				8D0C75DF194601AB00376235 /* CMTest.m */,
 				8D0C75C11945FF4600376235 /* Images.xcassets */,
 				8D0C75B01945FF4600376235 /* Supporting Files */,
 			);
